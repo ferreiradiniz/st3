@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+(function() {
+  'use strict';
+
+  describe('$1', function() {
+
+    var \$scope, vm;
+
+    beforeEach(module('$2'));
+
+    beforeEach(inject(function(\$rootScope, \$controller) {
+      \$scope = \$rootScope.\$new();
+
+      vm = \$controller('$3', {
+        \$scope: \$scope
+      });
+    }));
+
+    $4
+
+  });
+
+}());
+]]></content>
+  <tabTrigger>descac</tabTrigger>
+  <scope>source.js</scope>
+  <description>describe controller</description>
+</snippet>

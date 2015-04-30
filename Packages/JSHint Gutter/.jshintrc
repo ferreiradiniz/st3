@@ -1,0 +1,31 @@
+{
+  // The plugin looks for a .jshintrc file in the same directory as the source
+  // file you're prettifying (or any directory above if it doesn't exist, or in
+  // your home folder if everything else fails) and uses those options along
+  // the default ones.
+
+  // Details: https://github.com/victorporof/Sublime-JSHint#using-your-own-jshintrc-options
+  // Example: https://github.com/jshint/jshint/blob/master/examples/.jshintrc
+  // Documentation: http://www.jshint.com/docs/options/
+
+  //Default settings
+  "browser": true,
+  "esnext": true,
+  "globals": {
+    "phantom": true,
+    "jasmine": true,
+    "mocha": true,
+    "angular": true
+  },
+  //"globalstrict": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "maxdepth": 2
+  //My Settings
+  "curly":true,
+  "devel":true,
+  "eqeqeq": true,
+  "strict": true,
+  "trailing": true,
+}

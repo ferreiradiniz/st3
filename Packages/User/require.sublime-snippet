@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+var $1 = require('$2');
+
+  $3
+]]></content>
+  <tabTrigger>req</tabTrigger>
+  <scope>source.js</scope>
+  <description>angular Controller</description>
+</snippet>

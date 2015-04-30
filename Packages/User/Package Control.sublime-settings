@@ -1,0 +1,27 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AlignTab",
+		"AngularJS",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"DocBlockr",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"Jasmine JS",
+		"JsFormat",
+		"JSHint Gutter",
+		"Package Control",
+		"SideBarEnhancements",
+		"Stylus",
+		"Theme - Brogrammer",
+		"ToggleQuotes"
+	]
+}

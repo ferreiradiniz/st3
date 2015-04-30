@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+(function(){
+  'use strict';
+
+  $1
+}());
+]]></content>
+  <tabTrigger>us</tabTrigger>
+  <scope>source.js</scope>
+  <description>use strict</description>
+</snippet>
